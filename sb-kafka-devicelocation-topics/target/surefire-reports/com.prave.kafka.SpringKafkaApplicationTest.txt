@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.prave.kafka.SpringKafkaApplicationTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 24.708 sec <<< FAILURE! - in com.prave.kafka.SpringKafkaApplicationTest
+testReceiveDeviceLocation(com.prave.kafka.SpringKafkaApplicationTest)  Time elapsed: 14.707 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[0]L> but was:<[1]L>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.prave.kafka.SpringKafkaApplicationTest.testReceiveDeviceLocation(SpringKafkaApplicationTest.java:85)
+

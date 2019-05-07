@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.prave.kafka.SpringKafkaApplicationTest" time="14.723" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\KafkaWork\sb-kafka-devicelocation-topics"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\KafkaWork\sb-kafka-devicelocation-topics"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\prave\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\netbeans\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\netbeans\netbeans\java\maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\TortoiseGit\bin;C:\Users\prave\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\prave\AppData\Local\Programs\Python\Python37-32\;C:\Users\prave\AppData\Local\Microsoft\WindowsApps;C:\Users\prave\AppData\Local\Programs\Microsoft VS Code\bin;C:\zookeeper-3.4.13\bin;C:\Users\prave\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\prave"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="current.jrebel.agent.path" value="C:\netbeans\netbeans\java2\griffin\jrebel.jar"/>
+    <property name="user.name" value="prave"/>
+    <property name="java.class.path" value="C:\netbeans\netbeans\java\maven\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\netbeans\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 clean install -Dcurrent.jrebel.agent.path=C:\netbeans\netbeans\java2\griffin\jrebel.jar"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\netbeans\netbeans\java\maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testReceiveDeviceLocation" classname="com.prave.kafka.SpringKafkaApplicationTest" time="14.707">
+    <failure message="expected:&lt;[0]L&gt; but was:&lt;[1]L&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[0]L> but was:<[1]L>
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at com.prave.kafka.SpringKafkaApplicationTest.testReceiveDeviceLocation(SpringKafkaApplicationTest.java:85)
+]]></failure>
+    <system-out><![CDATA[18:47:20.161 [main] ERROR o.a.zookeeper.server.ZooKeeperServer - ZKShutdownHandler is not registered, so ZooKeeper server won't take any action on ERROR or SHUTDOWN server state changes
+18:47:21.040 [main] WARN  k.server.BrokerMetadataCheckpoint - No meta.properties file under dir C:\Users\prave\AppData\Local\Temp\kafka-3660625215508570252\meta.properties
+18:47:21.435 [main] WARN  k.server.BrokerMetadataCheckpoint - No meta.properties file under dir C:\Users\prave\AppData\Local\Temp\kafka-3660625215508570252\meta.properties
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.4.RELEASE)
+
+18:47:22.274 [main] INFO  c.p.kafka.SpringKafkaApplicationTest - Starting SpringKafkaApplicationTest on LAPTOP-QUJ846CR with PID 14244 (started by prave in C:\KafkaWork\sb-kafka-devicelocation-topics)
+18:47:22.274 [main] INFO  c.p.kafka.SpringKafkaApplicationTest - No active profile set, falling back to default profiles: default
+18:47:23.828 [main] INFO  c.p.kafka.SpringKafkaApplicationTest - Started SpringKafkaApplicationTest in 1.766 seconds (JVM running for 4.492)
+18:47:28.490 [main] INFO  com.prave.kafka.producer.Sender - sending payload='DeviceLocation{PlaceName=1, area=2, fullAddress=3, pName=4, placeType=5, time_taken=6, latitude=7, mapPlaceName=8, is_not_tagged_place=9, time=10, PlaceTime=11, longitude=12, city=13, mode=14}' to topic='devicelocation.t'
+18:47:28.537 [main] INFO  com.prave.kafka.producer.Sender - sending payload='DeviceLocation{PlaceName=COGCONSR&D, area=VarthurKodi, fullAddress="7, WhitefieldMainRoad, Opp.VarthurLake, VarthurKodi, Bengaluru, Karnataka560066, India, pName=COGCONSR&D, placeType=Office, time_taken=0, latitude=12.9576044, mapPlaceName=Office, is_not_tagged_place=0, time=1556189746495, PlaceTime=25-Apr-201916: 25: 46, longitude=77.7442255, city=Bengaluru, mode=mode}' to topic='devicelocation.t'
+18:47:28.568 [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] INFO  com.prave.kafka.consumer.Receiver - received DeviceLocation{PlaceName=COGCONSR&D, area=VarthurKodi, fullAddress="7, WhitefieldMainRoad, Opp.VarthurLake, VarthurKodi, Bengaluru, Karnataka560066, India, pName=COGCONSR&D, placeType=Office, time_taken=0, latitude=12.9576044, mapPlaceName=Office, is_not_tagged_place=0, time=1556189746495, PlaceTime=25-Apr-201916: 25: 46, longitude=77.7442255, city=Bengaluru, mode=mode}
+18:47:28.568 [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] INFO  com.prave.kafka.consumer.Receiver - received DeviceLocation{PlaceName=1, area=2, fullAddress=3, pName=4, placeType=5, time_taken=6, latitude=7, mapPlaceName=8, is_not_tagged_place=9, time=10, PlaceTime=11, longitude=12, city=13, mode=14}
+]]></system-out>
+  </testcase>
+  <testcase name="testReceive" classname="com.prave.kafka.SpringKafkaApplicationTest" time="0.016"/>
+</testsuite>

@@ -1,0 +1,9 @@
+com\prave\kafka\producer\Sender.class
+com\prave\model\RoomLight.class
+com\prave\kafka\producer\SenderConfig.class
+com\prave\model\Foo.class
+com\prave\kafka\consumer\Receiver.class
+com\prave\kafka\consumer\ReceiverConfig.class
+com\prave\kafka\SpringKafkaApplication.class
+com\prave\model\Bar.class
+com\prave\model\DeviceLocation.class
